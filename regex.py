@@ -28,7 +28,7 @@ if (regex_lenMin is None):
 regex_lenMax = re.search('.{17,}', str1)
 if (regex_lenMax is not None):
     printFail = True
-    errorMsg.append('長度須小於17')
+    errorMsg.append('長度須小於16')
 
 
 
