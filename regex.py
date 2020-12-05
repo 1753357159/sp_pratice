@@ -5,7 +5,7 @@ str1 = sys.argv[1]
 printFail = False
 errorMsg = []
 
-regex_string = re.search('[a-zA-z]+', str1)
+regex_string = re.search('[a-zA-Z]+', str1)
 if regex_string is None:
     printFail = True
     errorMsg.append('缺少英文')
